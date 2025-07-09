@@ -21,7 +21,7 @@ import userprofile2 from "../../assets/userprofile2.jpg";
 import ebc1 from "../../assets/ebc1.jpeg";
 import ebc2 from "../../assets/ebc2.jpg";
 
-const INTRO = `Hi, I'm Wei Pin, an aspiring technopreneur based in Singapore. I am 
+const INTRO = `Hi, I'm Farid Fazri, an aspiring technopreneur based in Singapore. I am 
   currently a Computer Engineering Sophomore at the National University of Singapore and I am
   passionate about building innovative software solutions that solves problems.`;
 
@@ -86,7 +86,7 @@ const Welcome = ({ id }: props) => {
       {!aboutmeView ? (
         <div>
           <h3 className={styles.welcome_text}>
-            Welcome To Wei Pin&apos;s Personal Website
+            Welcome To Farid Fadilah&apos;s Personal Website
           </h3>
           <p className={styles.subtitle}>
             Learn more about me by clicking any of the icons below to get
@@ -106,7 +106,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="My Brain Dump"
                 onClick={() => {
                   window.open(
-                    "https://github.com/firwer",
+                    "https://github.com/RAZORGG",
                     "_blank",
                     "noreferrer"
                   );
@@ -118,7 +118,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="Connect with me!"
                 onClick={() => {
                   window.open(
-                    "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+                    "https://www.linkedin.com/in/farid-fadilah-9679312b8/",
                     "_blank",
                     "noreferrer"
                   );

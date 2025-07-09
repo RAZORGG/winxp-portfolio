@@ -42,7 +42,7 @@ export default function Home() {
 
   const handleOpenLinkedin = () => {
     window.open(
-      "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+      "https://www.linkedin.com/in/farid-fadilah-9679312b8/",
       "_blank",
       "noreferrer"
     );
@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Wei Pin&apos;s Personal Website - Home Page</title>
+        <title>Farid Fazri&apos;s Personal Website - Home Page</title>
         <meta name="description" content="My Personal Space" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.ico" />

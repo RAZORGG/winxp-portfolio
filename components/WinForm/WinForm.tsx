@@ -31,6 +31,7 @@ const WinForm = (props: {
   const [isMinimized, setMinimised] = useState(false);
   const [currX, setX] = useState(0);
   const [currY, setY] = useState(0);
+  const nodeRef = useRef(null);
   const currTabID = useSelector(
     (state: RootState) => state.tab.currentFocusedTab
   );
@@ -76,8 +77,9 @@ const WinForm = (props: {
   const normalWidth = isMaximized ? "100%" : "750px";
   const normalHeight = isMaximized ? "calc(100% - 40px)" : "75%";
   return (
-    <Draggable {...draggableProps}>
+    <Draggable {...draggableProps} nodeRef={nodeRef}>
       <div
+        ref={nodeRef}
         style={{
           top: isMaximized ? "0" : "10%",
           left: isMaximized ? "0" : "20%",
